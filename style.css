@@ -1,0 +1,122 @@
+.navbar{
+    width: 100%;
+    height: auto; 
+    background-color: #0074E4;
+    overflow: auto;
+}
+
+.navbar a{
+    float: left;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a:hover{
+    background-color: #264E86;
+}
+
+.button{
+    border-radius: 25px;
+    border: 2px solid;
+    padding: 10px 25px;
+    background-color: #0074E4;
+    border-color: white;
+    cursor: pointer;
+    color: white;
+    float: right;
+    margin: 10px 10px;
+}
+
+.button:hover{
+    background-color: #264E86;
+}
+
+.search input[type=text]{
+    padding: 10px;
+    font-size: 12px;
+    float: left;
+    width: 30%;
+    background: white;
+    border: 1px solid white;
+    border-radius: 5px 0px  0px 5px;
+}
+
+.search button{
+    float: left;
+    width: 10%;
+
+    padding: 10px;
+    background: #0074E4;
+    color: white;
+    font-size: 12px;
+    border-left: none;
+    cursor: pointer;
+    border: 1px solid #0074E4;
+    border-left: none;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.search button:hover{
+    background: #264E86;
+}
+
+.search{
+    position: relative;
+    margin: 20px 0px 0px 500px;
+}
+
+.search::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+    margin: 20px 0px;
+    border-radius: 5px;
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    line-height: 15px;
+}
+
+.btn{
+    width: 150px;
+    height: 40px;
+    background-color: #0074E4;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    display: inline-flexbox;
+    margin:  20px 0px 50px 580px;
+}
+
+footer{
+    width: 98,5%;
+    height: 100px;
+    background-color: #0074E4;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+    padding: 60px 20px 25px 0px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 500px){
+    .navbar a{
+        float: none;
+        display: block;
+    }
+}
